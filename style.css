@@ -1,6 +1,7 @@
 .body {
     display: flex;
     flex-direction: column;
+    
 
 }
 .header {
@@ -8,14 +9,21 @@
     flex-direction: row;
     justify-content: space-evenly;
     align-items: flex-start;
-
     background-color: #1F2937;
-
 }
 
 .section1 {
     text-align: center;
     padding: 32px;
+}
+
+.section2 {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 128px;
+    
 }
 
 .container {
@@ -41,6 +49,7 @@
     font-size: 36px;
     font-weight: 900;
     margin-bottom: 32px;
+    color: #1f2937;
 }
 .toprightlinks {
     display: flex;
@@ -55,14 +64,28 @@
     margin: 0px;
 }
 
+.quote {
+    font-size: 36px;
+    font-style: italic; 
+    font-weight: light;
+    color: #1F2937;
+
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.endquote {
+   
+    margin-right: 400px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
 img {
     width: 100px;
     height: 100px;
 }
-.img1 {
-    display: flex;
-    flex: 1;
-}
+
 
 button {
     font-family: Roboto, sans-serif;
