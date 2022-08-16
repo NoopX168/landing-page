@@ -14,16 +14,28 @@
 
 .section1 {
     text-align: center;
-    padding: 32px;
+    margin-top: 32px;
+    margin-bottom: 128px;
+   
 }
 
 .section2 {
     background-color: #e5e7eb;
     display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
     padding: 128px;
     
+}
+
+.section3 {
+    text-align: center;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 128px;
 }
 
 .container {
@@ -35,14 +47,40 @@
     margin-bottom: 64px;
 }
 
-.container2 {
+.container1 {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 16px;
 }
 
+.container2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 860px;
+}
+
+.container3 {
+    background-color: #3882f6;
+    display: flex;
+    gap: 256px;
+    align-items: center;
+    border-radius: 8px;
+    padding: 48px 128px;
+    
+}
+
+.text3   {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    color: white;
+
+}
 .item {
     max-width: 200px;
+    margin: 8px;
 }
 
 .title {
@@ -60,7 +98,7 @@
     margin-bottom: 64px;
 }
 
-.text{
+.underlogo{
     margin: 0px;
 }
 
@@ -70,16 +108,16 @@
     font-weight: light;
     color: #1F2937;
 
-    margin-left: 400px;
-    margin-right: 400px;
 }
 
 .endquote {
-   
-    margin-right: 400px;
     font-weight: bold;
     font-size: 18px;
+    text-align: end;
+    
+
 }
+
 
 img {
     width: 100px;
@@ -91,9 +129,14 @@ button {
     font-family: Roboto, sans-serif;
     border: none;
     background: #3882f6;
-    padding: 8px 16px;
+    padding: 8px 32px;
     border-radius: 8px;
     color: white;
+    margin-top: 8px;
+}
+
+button.signup {
+    border: 2px white solid;
 }
 
 .logotext {
@@ -102,6 +145,7 @@ button {
     
 }
 
+
 h1 {
     font-size: 48px;
     font-weight: 600;
@@ -109,8 +153,12 @@ h1 {
     margin: 0px;
 }
 
-p,
-a {
+h2,
+p {
+    margin: 0px;
+}
+
+.subtext {
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -122,6 +170,7 @@ a {
 
 a{
     text-decoration: none;
+    color: white;
 }
 
 ul{
