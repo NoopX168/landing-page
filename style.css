@@ -1,8 +1,7 @@
-.body {
+body {
     display: flex;
     flex-direction: column;
-    
-
+    min-height: 100vh;
 }
 .header {
     display: flex;
@@ -12,7 +11,19 @@
     background-color: #1F2937;
 }
 
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+
+    color: white;
+    padding: 32px;
+}
+
 .section1 {
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
     margin-top: 32px;
     margin-bottom: 128px;
@@ -21,21 +32,25 @@
 
 .section2 {
     background-color: #e5e7eb;
-    display: flex;
     flex-flow: column wrap;
-    justify-content: center;
-    align-items: center;
+    justify-content: center;   
     padding: 128px;
     
 }
 
 .section3 {
     text-align: center;
-    margin: 0;
-    display: flex;
-    align-items: center;
+    margin: 0;  
     justify-content: center;
     padding: 128px;
+}
+
+.section1,
+.section2,
+.section3{
+    flex: 1;
+    display: flex;
+    align-items: center;
 }
 
 .container {
@@ -70,6 +85,12 @@
     padding: 48px 128px;
     
 }
+.bigcontainer {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+} 
+
 
 .text3   {
     display: flex;
@@ -118,11 +139,16 @@
 
 }
 
+.image1 {
+    width: auto;
+    height: 200px;
+}
 
-img {
+.image2 {
     width: 100px;
     height: 100px;
 }
+
 
 
 button {
