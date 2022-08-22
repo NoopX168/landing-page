@@ -8,53 +8,86 @@
         <link rel="stylesheet" href="./style.css">
     </head>
     <body style="margin:0;padding:0">
-    <div class="header">
-        <div class="container">
-            <div class ="logotext">Header Logo</div>
-            <div class="underlogo"> 
-                <h1>This website is awesome</h1>
-                <p class="subtext">this website has some subtext</p>
-                <button>Sign up</button>
-            </div>
-        </div>
-            <div class="toprightlinks">
-                <ul>
-                    <li><a href="#">head link one</a></li>
-                    <li><a href="#">head link two</a></li>
-                    <li><a href="#">head link three</a></li>
-                </ul>
-                <div class = image1><img src="./varre.jpg" alt="placeholder"></div>
-            </div>
+    <div class="fixed-header">
+        <!--<div class ="logotext">Header Logo</div> -->
+        <img class="eldenringlogo" src="./eldenringlogo.jpg" alt="eldenringlogo">
+        <div class="toprightlinks">
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><img class="tailsmenimg" src="./dagger.png"></li>
+                <li><a href="#">Story</a></li>
+                <li><img class="tailsmenimg" src="./axe.png"></li>
+                <li><a href="#">FAQ</a></li>
+                <li><img class="tailsmenimg" src="./blesseddew.png"></li>
+                <li><a href="#">Contact</a></li>
+                <li><img class="tailsmenimg" src="./hammer.png"></li>
+            </ul>
         </div>
     </div>
+    <div class="bottomheader">
+            <div class="underlogo"> 
+                <h1>Welcome To Elden Ring</h1>
+                <div class="subtext">
+                    <p>Elden Ring is an action RPG developed by FromSoftware and published by Bandai Namco Entertainment. 
+                        It is played from a third person perspective with gameplay focusing on exploration and combat. It has elements from 
+                        FromSoftware's previous games, such as the Dark Souls Series, Bloodborne, and Sekiro: Shadows Die Twice. 
+                    </p>
+                </div>
+                <button class="signup">Buy Now</button>
+            </div>
+        <div class="gif"><iframe src="https://giphy.com/embed/fuExCc3tl9qxMuvmII" width="600" height="350" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/bandainamco-elden-ring-fromsoftware-fuExCc3tl9qxMuvmII">via GIPHY</a></p>      
+        </div>
+    </div>
+    
     <div class="bigcontainer">
         <div class="section1">
-            <div class="title">Some Random Information</div>
+            <div class="title">Meet the Characters</div>
             <div class="container1">
-            <div class="item">
-                <img class="image2" src="./imgholder.jpg" alt="placeholder">
-                <p>this is some subtext under an illustration or image</p>
-            </div>
-            <div class="item">
-                <img class="image2"src="./imgholder.jpg" alt="placeholder">
-                <p>this is some subtext under an illustration or image</p>
-            </div>
-            <div class="item">
-                <img class="image2"src="./imgholder.jpg" alt="placeholder">
-                <p>this is some subtext under an illustration or image</p>
-            </div>
-            <div class="item">
-                <img class="image2"src="./imgholder.jpg" alt="placeholder">
-                <p>this is some subtext under an illustration or image</p>
-            </div>
+                <div class="item">
+                    <img class="image2" src="./varre.jpg" alt="placeholder">
+                    <p>Oh yes... Tarnished, are we?</p>
+                    <p>Come to the Lands Between for the Elden Ring, hmm?</p>
+                    <p>Of course you have. No shame in it.</p>
+                    <p>Unfortunately for you, however, you are maidenless.</p>
+                    <p class="names">-White Mask Varre</p>
+                </div>
+                <div class="item">
+                    <img class="image2"src="./renna.jpg" alt="placeholder">
+                    <p>A pleasure to meet thee, Tarnished. I am the witch Renna.</p>
+                    <p>I'd heard tell of a Tarnished hurtling about atop a spectral steed.</p>
+                    <p>And upon looking into the matter, the talk, I surmise, is of thee.</p>
+                    <p>Thou'rt possessed of the power, no?</p>
+                    <p>To call forth the spectral steed named Torrent.</p>
+                    <p class="names">-Renna the Ice Witch</p>
+                </div>
+                <div class="item">
+                    <img class="image2"src="./alex.jpg" alt="placeholder">
+                    <p>I am Alexander, also known as the Iron Fist.</p>
+                    <p>And as you can see, I'm stuck here.</p>
+                    <p class="names">-Iron First Alexander</p>
+                </div>
+                <div class="item">
+                    <img class="image2"src="./melina.jpg" alt="placeholder">
+                    <p>I can play the role of maiden.</p>
+                    <p>Turning rune fragments into strength</p>
+                    <p>To aid you in your search for the Elden Ring.</p>
+                    <p>You need only take me with you.</p>
+                    <p class="names">-Melina the Maiden</p>
+                </div>
+                <div class="item">
+                    <img class="image2"src="./blaidd.jpg" alt="placeholder">
+                    <p>Kalé sent you, did he?</p>
+                    <p>Ever the bloody busybody. Hmm. Maybe to him, you don't seem so strange.</p>
+                    <p>The name's Blaidd. I'm looking for a man who goes by "Darriwil."</p> 
+                    <p class="names">-Balidd the Half-Wolf</p>
+                </div>
             </div>
         </div> 
         <div class="section2">
             <div class="container2">
-            <div class="quote">You seek violence, heedless of my warning, 
-                though you have been raised to a knight of the dynasty? I am pained, 
-                to the very depths of my being. I'll ensure you regret this, my lambkin. 
-                Enjoy your miserable death.
+            <div class="quote">Oh yes... Tarnished, are we? Come to the Lands Between for the Elden Ring, hmm?
+                Of course you have. No shame in it.
+                Unfortunately for you, however, you are maidenless.
             </div>
             <div class="endquote">-White Mask Varre</div> 
             </div>
@@ -62,15 +95,15 @@
         <div class="section3">
             <div class= "container3">
             <div class="text3">
-                <h2>Call to Action! It's time!</h2>
-                <p>Sign up for our product by clicking that button right over there</p>
+                <h2>Buy and Download the Game!</h2>
+                <p>Prove yourself, Tarnished</p>
             </div>
-            <button class="signup">Sign up</button>
+            <button class="signup">Buy Now</button>
             </div>
         </div>
     </div>
     <div class="footer">
-        Copyright @ The Odin Project 2021
+        Website Design By Xen 
     </div>
 
     </body>
